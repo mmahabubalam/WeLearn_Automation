@@ -7,7 +7,15 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
-public class eDetailing_Create  extends BaseDriver{
+
+/*
+ *Assigned Employee name at line: 75
+ *Reviewer name at line 115
+ * 
+ */
+
+
+public class eDetailing_Assign  extends BaseDriver{
 
 	public String url = "http://103.209.40.121:2600/";
 	
@@ -60,7 +68,7 @@ public class eDetailing_Create  extends BaseDriver{
 	    
 	    WebElement searchBox = driver.findElement(By.xpath("//input[contains(@class,'select2-search__field')]"));
 	    Thread.sleep(500);
-	    searchBox.sendKeys("i0491464");
+	    searchBox.sendKeys("BDIslamE");
 	    Thread.sleep(1000);
 	    searchBox.sendKeys(Keys.ENTER);
 	    Thread.sleep(1000);
@@ -99,7 +107,7 @@ public class eDetailing_Create  extends BaseDriver{
 	    
 	    WebElement searchBox1 = driver.findElement(By.xpath("//input[@role='searchbox']"));
 	    Thread.sleep(500);
-	    searchBox1.sendKeys("BDSalimA");
+	    searchBox1.sendKeys("BDHalderB");
 	    Thread.sleep(500);
 	    searchBox1.sendKeys(Keys.ENTER);
 	    Thread.sleep(500);
@@ -109,7 +117,7 @@ public class eDetailing_Create  extends BaseDriver{
 	    
 	    
 	    //Submit
-//	    driver.findElement(By.xpath("(//button[@type='submit'][normalize-space()='Submit'])[1]")).click();
+	    driver.findElement(By.xpath("(//button[@type='submit'][normalize-space()='Submit'])[1]")).click();
 	    Thread.sleep(500);
 				
 	}

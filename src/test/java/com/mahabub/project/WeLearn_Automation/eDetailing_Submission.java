@@ -16,7 +16,7 @@ public class eDetailing_Submission extends BaseDriver{
 		
 		// ============================   L O G   I N   =====================================
 		
-		driver.findElement(By.name("UserName")).sendKeys("BDAbirm");
+		driver.findElement(By.name("UserName")).sendKeys("BDIslamE");
 		driver.findElement(By.name("Password")).sendKeys("123456");
 		driver.findElement(By.className("btn")).click();
 		
