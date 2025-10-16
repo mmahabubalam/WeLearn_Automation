@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.mahabub.project.WeLearn_Automation.Content_Completion">
+      <class name="com.mahabub.project.WeLearn_Automation.CreateCourseAI">
         <methods>
-          <include name="basic"/>
+          <include name="fillCreateCourseForm"/>
           <include name="close"/>
           <include name="start"/>
         </methods>
-      </class> <!-- com.mahabub.project.WeLearn_Automation.Content_Completion -->
+      </class> <!-- com.mahabub.project.WeLearn_Automation.CreateCourseAI -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
