@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-20T10:49:41 GMT+06:00" name="Default suite" finished-at="2025-10-20T10:50:00 GMT+06:00" duration-ms="18990">
+  <suite started-at="2025-10-22T12:42:36 GMT+06:00" name="Default suite" finished-at="2025-10-22T12:42:59 GMT+06:00" duration-ms="23315">
     <groups>
     </groups>
-    <test started-at="2025-10-20T10:49:41 GMT+06:00" name="Default test" finished-at="2025-10-20T10:50:00 GMT+06:00" duration-ms="18990">
-      <class name="com.mahabub.project.WeLearn_Automation.CreateCourseAI">
-        <test-method is-config="true" signature="start()[pri:0, instance:com.mahabub.project.WeLearn_Automation.CreateCourseAI@4ec4f3a0]" started-at="2025-10-20T10:49:37 GMT+06:00" name="start" finished-at="2025-10-20T10:49:41 GMT+06:00" duration-ms="4316" status="PASS">
+    <test started-at="2025-10-22T12:42:36 GMT+06:00" name="Default test" finished-at="2025-10-22T12:42:59 GMT+06:00" duration-ms="23315">
+      <class name="com.mahabub.project.WeLearn_Automation.Course_Assign">
+        <test-method is-config="true" signature="start()[pri:0, instance:com.mahabub.project.WeLearn_Automation.Course_Assign@4ec4f3a0]" started-at="2025-10-22T12:42:31 GMT+06:00" name="start" finished-at="2025-10-22T12:42:36 GMT+06:00" duration-ms="4665" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="fillCreateCourseForm()[pri:0, instance:com.mahabub.project.WeLearn_Automation.CreateCourseAI@4ec4f3a0]" started-at="2025-10-20T10:49:41 GMT+06:00" name="fillCreateCourseForm" finished-at="2025-10-20T10:50:00 GMT+06:00" duration-ms="18949" status="PASS">
+        <test-method signature="CourseAssign()[pri:0, instance:com.mahabub.project.WeLearn_Automation.Course_Assign@4ec4f3a0]" started-at="2025-10-22T12:42:36 GMT+06:00" name="CourseAssign" finished-at="2025-10-22T12:42:59 GMT+06:00" duration-ms="23271" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fillCreateCourseForm -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.mahabub.project.WeLearn_Automation.CreateCourseAI@4ec4f3a0]" started-at="2025-10-20T10:50:00 GMT+06:00" name="close" finished-at="2025-10-20T10:50:01 GMT+06:00" duration-ms="127" status="PASS">
+        </test-method> <!-- CourseAssign -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.mahabub.project.WeLearn_Automation.Course_Assign@4ec4f3a0]" started-at="2025-10-22T12:42:59 GMT+06:00" name="close" finished-at="2025-10-22T12:42:59 GMT+06:00" duration-ms="120" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- com.mahabub.project.WeLearn_Automation.CreateCourseAI -->
+      </class> <!-- com.mahabub.project.WeLearn_Automation.Course_Assign -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
