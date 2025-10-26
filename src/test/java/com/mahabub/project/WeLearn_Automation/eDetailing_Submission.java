@@ -1,6 +1,5 @@
 package com.mahabub.project.WeLearn_Automation;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
 public class eDetailing_Submission extends BaseDriver{
