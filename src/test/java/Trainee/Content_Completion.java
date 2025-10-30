@@ -1,4 +1,4 @@
-package com.mahabub.project.WeLearn_Automation;
+package Trainee;
 
 import java.time.Duration;
 
