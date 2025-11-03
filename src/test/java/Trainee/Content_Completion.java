@@ -57,7 +57,7 @@ public class Content_Completion extends BaseDriver{
 		Thread.sleep(1000);
 		
 		// div3 is content serial
-		WebElement content = driver.findElement(By.xpath("(//div[contains(@class,'row row-space-6')])[1]/div[3]/div[2]/div[1]/div[1]/div[1]"));
+		WebElement content = driver.findElement(By.xpath("(//div[contains(@class,'row row-space-6')])[1]/div[3]/div[2]/div[1]/div[1]/div[2]"));
 		content.click();
 		Thread.sleep(2000);
 		

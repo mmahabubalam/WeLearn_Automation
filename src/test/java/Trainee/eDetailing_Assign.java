@@ -31,7 +31,7 @@ public class eDetailing_Assign  extends BaseDriver{
 		driver.findElement(By.name("UserName")).sendKeys("BDHalderB");
 		driver.findElement(By.name("Password")).sendKeys("123456");
 		driver.findElement(By.className("btn")).click();
-		
+		Thread.sleep(500);
 		// ===========================  M O D U L E   C H A N G E   T O   T R A I N E E   ==================
 		
 		driver.findElement(By.className("dropdown-toggle")).click();
@@ -67,7 +67,7 @@ public class eDetailing_Assign  extends BaseDriver{
 	    
 	    WebElement searchBox = driver.findElement(By.xpath("//input[contains(@class,'select2-search__field')]"));
 	    Thread.sleep(500);
-	    searchBox.sendKeys("BDIslamE");
+	    searchBox.sendKeys("JoyAZM");
 	    Thread.sleep(1000);
 	    searchBox.sendKeys(Keys.ENTER);
 	    Thread.sleep(1000);
@@ -116,8 +116,8 @@ public class eDetailing_Assign  extends BaseDriver{
 	    
 	    
 	    //Submit
-	    driver.findElement(By.xpath("(//button[@type='submit'][normalize-space()='Submit'])[1]")).click();
-	    Thread.sleep(500);
+//	    driver.findElement(By.xpath("(//button[@type='submit'][normalize-space()='Submit'])[1]")).click();
+//	    Thread.sleep(500);
 				
 	}
 }
