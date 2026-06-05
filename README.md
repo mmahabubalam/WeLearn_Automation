@@ -1,6 +1,6 @@
 # 🧠 Welearn Automation Project
 
-Welcome to the **Welearn Automation Project** — an automated testing framework for the **Welearn Learning Platform**, designed to validate key e-learning workflows such as course creation, e-detailing, and content submission.
+Welcome to the **Welearn Automation Project** — an automated testing framework for the **Welearn Learning Platform**, designed to validate key e-learning workflows which user frequently.
 
 ---
 
@@ -13,53 +13,44 @@ This automation project focuses on testing core functionalities through browser 
 
 ## 🧩 Automated Features
 
-### 1️⃣ Course Creation
-- Automates creating a new course.
-- Inputs **Course Title (English & Bangla)** and **Description (English & Bangla)**.
-- Selects **Category**, **Sub-Category**, and **Brand**.
-- Chooses **Level**, **Type**, and **Master sections** (System, Area, Disease, Specification).
-- Uploads course image and sets toggle options (Active, Open for All, IsCourse).
-- Submits and verifies successful creation.
-
-### 2️⃣ e-Detailing Creation
-- Automates creating a new **e-Detailing**, which includes video/audio-based learning materials.
-- Handles file uploads and input validations.
-- Verifies that content saves successfully and appears in the list.
-
-### 3️⃣ e-Detailing Assignment
-- Automates assigning created e-Detailings to employees.
-- Selects **Employee(s)** and **Reviewer** from dropdown lists.
-- Sets **Deadlines** using a calendar date picker.
-- Confirms successful assignment through UI validation.
-
-### 4️⃣ e-Detailing Submission
-- Automates submission of an e-Detailing by uploading a **video or audio file** from the local machine.
-- Validates that the submission is stored and visible under the assigned records.
+1. **Course Creation** — Logs in, switches to the Training Management module, fills in course details, and submits to create a new empty course.
+2. **Course Assignment** — Filters and selects a course, assigns it to an employee with a set deadline, and confirms submission.
+3. **Course Completion** — Logs in as the assigned employee, opens the course content, watches it, and marks it as complete.
+4. **e-Detailing Assignment** — Selects an e-Detailing (Video, Test, or Exam), assigns an employee and reviewer, and submits.
+5. **e-Detailing Submission** — From the assigned employee's account, uploads the required media file and submits the task.
+6. **e-Detailing Review** — From the reviewer's account, opens the pending submission and completes the review workflow.
 
 ---
 
 ## 🖼️ Feature Showcase
 
-### 📘 1. Course Creation Page
-
-The **Course Creation** page allows users to create a new learning course by entering all required details such as titles, descriptions, category, and brand selection.
-
-Below is the interface automated in this project:
-
-![Welearn Course Creation](f40a243f-6772-42c1-bfc4-bd8a181cb24a.png)
-
-**Automated Steps:**
-- Enter English & Bangla course titles and descriptions  
-- Select Category, Sub-Category, Brand, Level, Type, and Masters (System, Area, Disease, Specification)  
-- Upload a course image  
-- Configure switches such as `Active`, `Open for All`, and `IsCourse`  
-- Choose content show type (`One By One` or `All`)  
-- Submit the form successfully  
-
-This ensures that the **course creation workflow** functions smoothly with all required validations and dropdown selections.
+### 📘 1. Course Creation
+Logs into the platform and navigates to the **Training Management** module. Opens the Create New Course page, fills in the course title (English & Bangla), description, category, sub-category, brand, level, type, and master sections (System, Area, Disease, Specification). Uploads a course image, configures toggles (`Active`, `Open for All`, `IsCourse`), and submits to create a new empty course.
 
 ---
 
+### 📗 2. Course Assignment
+Navigates to the course assignment interface and uses the filter panel to locate the target course. Searches for the intended employee by name, selects them from the results, sets the course deadline via the date picker, and submits the assignment.
+
+---
+
+### 📙 3. Course Completion
+Logs in as the assigned employee and navigates to the assigned course. Opens the designated content, completes the watch interaction, and clicks the **Complete** button. The updated completion status is verified in the UI.
+
+---
+
+### 📕 4. e-Detailing Assignment
+Navigates to the **e-Detailing** section from the main menu. Selects the target material — Video, Test, or Exam — then assigns the appropriate employee and reviewer from the dropdown lists. Submits and confirms the assignment is recorded in the list.
+
+---
+
+### 📓 5. e-Detailing Submission
+Switches to the assigned employee's account and opens the pending e-Detailing task. Uploads the required video or audio file from the local machine, submits the entry, and verifies it is stored correctly under the assigned records.
+
+---
+
+### 📔 6. e-Detailing Review
+Logs in from the reviewer's account and navigates to the submission pending evaluation. Opens the assigned e-Detailing, completes the review actions as per the platform workflow, and finalizes the review. The updated status is verified in the system.
 ## 🧰 Tech Stack
 
 | Tool / Library | Purpose |
