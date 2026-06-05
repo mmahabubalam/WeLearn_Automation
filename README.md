@@ -64,5 +64,4 @@ Logs in from the reviewer's account and navigates to the submission pending eval
 
 ---
 
-## ⚙️ Project Structure
 
